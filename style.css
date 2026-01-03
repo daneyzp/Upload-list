@@ -89,7 +89,7 @@ h2{
   margin:25px 0 10px;
   font-size:24px;
 }
-.ListsTitle{font-family: Roboto Condensed;}
+.ListsTitle{font-family: Roboto Condensed; text-width: bold;}
 .file-card{
   display:flex;
   align-items:center;
