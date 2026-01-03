@@ -79,12 +79,15 @@ body9{
      -webkit-tap-highlight-color: transparent;
 }
 .upload-btn:hover { background: #FF5800; }
+.upload-btn:active {
+transform: scale(0.95);
+}
 /* FILE LIST */
 h2{
   margin:25px 0 10px;
   font-size:24px;
 }
-
+.ListsTitle{font-family: "Segoe UI", Arial, sans-serif;}
 .file-card{
   display:flex;
   align-items:center;
