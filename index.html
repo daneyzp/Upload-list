@@ -1,0 +1,35 @@
+<link rel="stylesheet" href="style.css">
+
+<body9>
+<div class="wrapper">
+
+  <div class="upload-box">
+    <div class="file-row">
+      <button class="plus-btn" onclick="fileInput.click()">+</button>
+      <input type="file" id="fileInput">
+
+      <input class="filename" id="filename" placeholder="Enter custom file name...">
+
+      <select class="extension" id="extension">
+        <option>.pdf</option>
+        <option>.docx</option>
+        <option>.xlsx</option>
+        <option>.pptx</option>
+        <option>.jpg</option>
+        <option>.jpeg</option>
+        <option>.png</option>
+      </select>
+    </div>
+
+    <button class="upload-btn" id="uploadBtn">Upload</button>
+  </div>
+
+  <h2>Uploaded Lists</h2>
+  <div id="fileContainer">Loading files...</div>
+
+</div>
+<script>
+const FOLDER_ID = "1aQBtoFU_0TjJhNyiWlQ4Z4ddW56yOlvw";
+</script>
+<script src="script.js"></script>
+</body9>

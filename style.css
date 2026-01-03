@@ -1,0 +1,136 @@
+*{box-sizing:border-box;font-family:Segoe UI,Arial,sans-serif}
+
+body9{
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #eef2f6;
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  border-radius: 12px;
+}
+
+/* MAIN BOX */
+.wrapper{
+  width:100%;
+  max-width:720px;
+}
+
+/* UPLOAD BOX */
+.upload-box{
+  background:#c9c9c9;
+  padding:18px;
+  border-radius:10px;
+}
+
+.file-row{
+  display:flex;
+    align-items:center;
+    gap:10px;
+    background:#fff;
+    padding:12px;
+    border-radius:6px;
+}
+
+.plus-btn{
+  min-width:48px;
+    height:48px;
+    background:#1e88b5;
+    color:#fff;
+    font-size:28px;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+     -webkit-tap-highlight-color: transparent;
+}
+.plus-btn:hover { background: #FF5800; }
+#fileInput{display:none}
+
+.filename{
+  flex:1;
+    min-width:120px;
+    padding:12px;
+    border:none;
+    background:#cfe8f4;
+    font-size:16px;
+    border-radius:4px;
+    outline:none;
+}
+
+.extension{
+  padding:12px;
+    font-size:16px;
+    border:none;
+    background:#b3e5ff;
+    border-radius:4px;
+    cursor:pointer;
+}
+
+.upload-btn{
+  width:100%;
+    margin-top:25px;
+    padding:15px;
+    font-size:20px;
+    background:#1f73b7;
+    color:#fff;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+     -webkit-tap-highlight-color: transparent;
+}
+.upload-btn:hover { background: #FF5800; }
+/* FILE LIST */
+h2{
+  margin:25px 0 10px;
+  font-size:24px;
+}
+
+.file-card{
+  display:flex;
+  align-items:center;
+  background:#fff;
+  padding:12px;
+  border-radius:14px;
+  margin:10px 0;
+  box-shadow:0 2px 6px rgba(0,0,0,0.06);
+}
+.file-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 12px rgba(0,0,0,0.12);
+}
+.file-icon{
+  width:55px;
+  height:55px;
+  border-radius:10px;
+}
+
+.file-info{
+  flex:1;
+  margin:0 12px;
+  overflow:hidden;
+}
+
+.file-name{
+  font-weight:600;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+
+.file-size{
+  font-size:13px;
+  color:#777;
+}
+
+.download-btn{
+  width:48px;
+  height:48px;
+  border-radius:12px;
+  background:#0078ff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+    -webkit-tap-highlight-color: transparent;
+}
+.download-btn:hover { background: #FF5800; }
+.download-btn svg { width: 24px; height: 24px; fill: #fff; }
