@@ -48,6 +48,7 @@ body9{
 
 .filename{
   flex:1;
+  font-family: Roboto Condensed;
     min-width:120px;
     padding:12px;
     border:none;
@@ -67,6 +68,7 @@ body9{
 }
 
 .upload-btn{
+font-family: Roboto Condensed;
   width:100%;
     margin-top:25px;
     padding:15px;
@@ -87,7 +89,7 @@ h2{
   margin:25px 0 10px;
   font-size:24px;
 }
-.ListsTitle{font-family: "Segoe UI", Arial, sans-serif;}
+.ListsTitle{font-family: Roboto Condensed;}
 .file-card{
   display:flex;
   align-items:center;
