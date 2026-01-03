@@ -44,7 +44,7 @@ uploadBtn.onclick = () => {
 
 /* ICONS */
 const icons={
-   pdf: "pdf.png",
+   pdf: "pdf.svg",
   doc: "doc.svg",
   docx: "docx.png",
   xls: "xls.svg",
