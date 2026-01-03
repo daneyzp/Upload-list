@@ -80,9 +80,9 @@ font-family: Roboto Condensed;
     cursor:pointer;
      -webkit-tap-highlight-color: transparent;
 }
-.upload-btn:hover { background: #FF5800; }
 .upload-btn:active {
 transform: scale(0.95);
+background: #FF5800;
 }
 /* FILE LIST */
 h2{
