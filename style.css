@@ -49,7 +49,7 @@ body9{
 .filename{
   flex:1;
   font-family: Roboto Condensed;
-    min-width: 60px;
+    min-width: 20px;
     padding:12px;
     border:none;
     background:#cfe8f4;
