@@ -44,24 +44,24 @@ uploadBtn.onclick = () => {
 
 /* ICONS */
 const icons={
-   pdf: "pdf.svg",
-  doc: "doc.svg",
-  docx: "docx.png",
-  xls: "xls.svg",
-  xlsx: "xlsx.svg",
-  jpg: "jpg.png",
-  jpeg: "jpeg.png",
-  png: "png.png",
-  gif: "gif.gif",
-  html: "html.svg",
-  css: "css.svg",
-  js: "js.svg",
-  txt: "txt.svg",
-  php: "php.svg",
-  zip: "zip.svg",
-  rar: "rar.svg",
-  fbx: "fbx.png",
-  default: "default.png"
+   pdf: "https://daneyzp.github.io/Upload-list/pdf.svg",
+  doc: "https://daneyzp.github.io/Upload-list/doc.svg",
+  docx: "https://daneyzp.github.io/Upload-list/docx.png",
+  xls: "https://daneyzp.github.io/Upload-list/xls.svg",
+  xlsx: "https://daneyzp.github.io/Upload-list/xlsx.svg",
+  jpg: "https://daneyzp.github.io/Upload-list/jpg.png",
+  jpeg: "https://daneyzp.github.io/Upload-list/jpeg.png",
+  png: "https://daneyzp.github.io/Upload-list/png.png",
+  gif: "https://daneyzp.github.io/Upload-list/gif.gif",
+  html: "https://daneyzp.github.io/Upload-list/html.svg",
+  css: "https://daneyzp.github.io/Upload-list/css.svg",
+  js: "https://daneyzp.github.io/Upload-list/js.svg",
+  txt: "https://daneyzp.github.io/Upload-list/txt.svg",
+  php: "https://daneyzp.github.io/Upload-list/php.svg",
+  zip: "https://daneyzp.github.io/Upload-list/zip.svg",
+  rar: "https://daneyzp.github.io/Upload-list/rar.svg",
+  fbx: "https://daneyzp.github.io/Upload-list/fbx.png",
+  default: "https://daneyzp.github.io/Upload-list/default.png"
 };
 
 /* LOAD FILES */
